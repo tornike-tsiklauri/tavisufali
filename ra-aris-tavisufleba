@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Blog Post</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .container {
+            max-width: 800px; /* Increased max-width for larger screens */
+        }
+        .blog-post-title {
+            font-size: 2.5rem; /* Increased font size for title */
+            font-weight: 700;  /* Make title bold */
+            margin-bottom: 1.5rem; /* Increased margin below title */
+            color: #2c3e50; /* Darker heading color */
+        }
+        .blog-post-image {
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 0.75rem; /* Rounded corners for images */
+            margin-bottom: 2rem; /* Increased margin below image */
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Add shadow to image */
+        }
+        .blog-post-text {
+            font-size: 1.1rem; /* Increased font size for body text */
+            line-height: 1.7; /* Improved line height for readability */
+            color: #34495e; /* Slightly darker body text */
+            margin-bottom: 2rem; /* Increased margin below paragraphs */
+        }
+        .blog-post-text p {
+            margin-bottom: 1.5rem; /* Increased paragraph spacing */
+        }
+        .blog-post-text h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        .blog-post-text h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        .blockquote {
+            padding: 1.5rem;
+            background-color: #f8f9fa; /* Lighter background for blockquotes */
+            border-left: 0.5rem solid #4299e1; /* Accent color for blockquote border */
+            border-radius: 0.75rem;
+            margin-bottom: 2rem;
+            font-style: italic; /* Style blockquotes as italic */
+            color: #4a5568;
+        }
+        .blockquote p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="blog-post-title">My Awesome Blog Post</h1>
+        <img src="https://placehold.co/800x400/EEE/31343C" alt="Blog Post Image" class="blog-post-image">
+        <div class="blog-post-text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <h2>Section 1: Introduction</h2>
+            <p>
+                Welcome to the first section of this blog post. Here, we'll dive deeper into the topic and explore some key concepts.  Let's add more text to fill this section.  We can talk about the importance of the subject matter and provide some context for the reader.
+            </p>
+            <h3>Subsection 1.1: Key Concepts</h3>
+            <p>
+                Here we discuss key concepts.  It is important to understand these concepts.
+            </p>
+
+            <blockquote class="blockquote">
+                <p>This is a blockquote.  It is used to highlight important text.</p>
+            </blockquote>
+
+            <p>
+                More text and explanation here. We can add more paragraphs to provide more details and examples.  This is a great way to elaborate on the points made in the previous sections.
+            </p>
+            <p>
+               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
